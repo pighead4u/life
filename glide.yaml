@@ -1,0 +1,4 @@
+package: github.com/pighead4u/life
+import:
+- package: github.com/julienschmidt/httprouter
+- package: github.com/jmoiron/sqlx
