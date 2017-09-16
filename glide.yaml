@@ -2,3 +2,8 @@ package: github.com/pighead4u/life
 import:
 - package: github.com/julienschmidt/httprouter
 - package: github.com/jmoiron/sqlx
+- package: golang.org/x/net
+  repo: https://github.com/golang/net
+  vcs: git
+- package: github.com/parnurzeal/gorequest
+  version: ^0.2.15

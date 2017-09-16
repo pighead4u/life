@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/pighead4u/life/crawler"
+)
 
 func main() {
-	fmt.Println("haha")
+	fmt.Println("++++++++++++++++++++++++++++++++++++++++++++")
+
+	crawler.FetchTest()
 }
