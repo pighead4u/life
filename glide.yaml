@@ -1,9 +1,11 @@
 package: github.com/pighead4u/life
 import:
 - package: github.com/julienschmidt/httprouter
+  version: v1.1
 - package: github.com/jmoiron/sqlx
+  version: sqlx-v1.1
+- package: github.com/parnurzeal/gorequest
+  version: 0.2.15
 - package: golang.org/x/net
   repo: https://github.com/golang/net
   vcs: git
-- package: github.com/parnurzeal/gorequest
-  version: ^0.2.15
